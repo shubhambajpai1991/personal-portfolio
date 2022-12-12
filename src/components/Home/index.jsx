@@ -30,10 +30,10 @@ function Home(props) {
                     Hi! My name is Shubham
                 </Typography>
                 <Typography>
-                    Lorem Ipsum is simply dummy text of the printing and typesetting
-                    industry. Lorem Ipsum has been the industry's standard dummy text ever
-                    since the 1500s, when an unknown printer took a galley of type and
-                    scrambled it to make a type specimen book.
+                    Let me introduce myself, before I decided to move into software
+                    engineering, I was a share market trader . As the world becomes
+                    increasingly digital and operated online. An inner feeling made me
+                    realize that it is the time to switch to software developing field.
                 </Typography>
                 <Link href="#contact">
                     <Stack
