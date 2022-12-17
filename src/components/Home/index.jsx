@@ -30,10 +30,10 @@ function Home(props) {
                     Hi! My name is Shubham
                 </Typography>
                 <Typography>
-                    Let me introduce myself, before I decided to move into software
-                    engineering, I was a share market trader . As the world becomes
-                    increasingly digital and operated online. An inner feeling made me
-                    realize that it is the time to switch to software developing field.
+                    I've been learning web development on my own. I'm excited to dive into
+                    the field of Front End Engineering and continue learning and growing
+                    as a developer. Love building interactive websites and exploring new
+                    technologies.
                 </Typography>
                 <Link href="#contact">
                     <Stack

@@ -66,7 +66,11 @@ function Projects() {
                     title="Free Stock Images"
                     subtitle="Search and download free stock photos"
                     link="https://free-stock-images.netlify.app/"
-                    details="It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+                    details={[
+                        'I developed a web application that allows users to search for and download free stock images. The application was built using React, MUI and Pixabay API.',
+                        'To ensure a seamless user experience, I implemented responsive design that can be accessible on various devices.',
+                        'One of the feature of the application is the ability to customize the search filter based on a specific category.',
+                    ]}
                     technologies={['React', 'Material UI']}
                 />
             </TabPanel>
@@ -76,7 +80,11 @@ function Projects() {
                     title="Grocery List"
                     subtitle="Create and save your grocery list"
                     link="https://create-grocery-list.netlify.app/"
-                    details="I "
+                    details={[
+                        'Grocery List Manager is a simple, easy-to-use application that allows users to create and manage their grocery lists.',
+                        ' With Grocery List web app, users can add items to their list, and also can generate and save the list in pdf file, that could be shared with others.',
+                        "The app also persist data on user's browser local storage so user can check their created list at any time ",
+                    ]}
                     technologies={['React', 'Material UI']}
                 />
             </TabPanel>
@@ -86,7 +94,11 @@ function Projects() {
                     title="Kanban Board"
                     subtitle="Manage your daily tasks and stay on track"
                     link="https://kanban-board-bootstrap.netlify.app/"
-                    details="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+                    details={[
+                        `This project is utilizing a kanban board to manage and track the progress of our work. The kanban board is divided into columns that represent the different stages of our workflow, including "To Do," "In Progress," and "Done." Each task is represented by a card that is moved from one column to the next as it progresses through the workflow.`,
+                        'User can also search their tasks and filter the list based on their priority.',
+                        'Overall, the kanban board has been a valuable tool in managing our software project and helping us stay organized and on track.',
+                    ]}
                     technologies={['React', 'Bootstrap', 'React Beautiful DND']}
                 />
             </TabPanel>

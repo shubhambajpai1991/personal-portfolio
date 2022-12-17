@@ -47,7 +47,11 @@ function ProjectCard(props) {
             </Grid>
             <Grid item xs={12} md={4}>
                 <Stack data-aos="fade-left">
-                    <Typography>{props.details}</Typography>
+                    <Stack direction="column" spacing={2}>
+                        {props.details.map((item, index) => (
+                            <Typography key={index}>{item}</Typography>
+                        ))}
+                    </Stack>
 
                     <Box sx={{ marginTop: { xs: '20px', md: '40px' } }}>
                         <Typography sx={{ fontSize: '24px', fontWeight: '600' }}>

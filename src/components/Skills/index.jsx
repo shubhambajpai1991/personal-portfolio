@@ -69,10 +69,7 @@ function Skills() {
             <Typography sx={{ fontSize: { xs: '36px', md: '50px' }, fontWeight: '700' }}>
                 Skills
             </Typography>
-            <Typography>
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                Lorem Ipsum has been the industry's standard dummy text.
-            </Typography>
+            {/* <Typography></Typography> */}
 
             <Stack
                 direction={'row'}

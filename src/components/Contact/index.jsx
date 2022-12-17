@@ -97,13 +97,34 @@ function Contact() {
                         spacing={{ xs: 1, md: 4 }}
                         data-aos="fade-up"
                     >
-                        <IconButton onClick={() => window.open('', '_blank')}>
+                        <IconButton
+                            onClick={() =>
+                                window.open(
+                                    'https://www.linkedin.com/in/shubham-bajpai-aa42093a/',
+                                    '_blank'
+                                )
+                            }
+                        >
                             <BsLinkedin />
                         </IconButton>
-                        <IconButton onClick={() => window.open('', '_blank')}>
+                        <IconButton
+                            onClick={() =>
+                                window.open(
+                                    'mailto:shubhambajpai1991@gmail.com',
+                                    '_blank'
+                                )
+                            }
+                        >
                             <CgMail size={34} />
                         </IconButton>
-                        <IconButton onClick={() => window.open('', '_blank')}>
+                        <IconButton
+                            onClick={() =>
+                                window.open(
+                                    'https://github.com/shubhambajpai1991',
+                                    '_blank'
+                                )
+                            }
+                        >
                             <BsGithub />
                         </IconButton>
                     </Stack>
