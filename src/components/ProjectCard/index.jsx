@@ -49,7 +49,9 @@ function ProjectCard(props) {
                 <Stack data-aos="fade-left">
                     <Stack direction="column" spacing={2}>
                         {props.details.map((item, index) => (
-                            <Typography key={index}>{item}</Typography>
+                            <Typography key={index} sx={{ textAlign: 'justify' }}>
+                                {item}{' '}
+                            </Typography>
                         ))}
                     </Stack>
 
@@ -57,7 +59,12 @@ function ProjectCard(props) {
                         <Typography sx={{ fontSize: '24px', fontWeight: '600' }}>
                             Technologies
                         </Typography>
-                        <Stack direction="row" spacing="20px" sx={{ marginTop: '20px' }}>
+                        <Stack
+                            direction="row"
+                            gap="20px"
+                            sx={{ marginTop: '20px' }}
+                            flexWrap="wrap"
+                        >
                             {props.technologies.map((item) => {
                                 return (
                                     <Chip
